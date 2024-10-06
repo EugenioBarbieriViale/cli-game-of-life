@@ -1,11 +1,11 @@
 use std::{thread, time};
 use rand::Rng;
 
-const HEIGHT: usize = 20;
+const HEIGHT: usize = 25;
 const WIDTH: usize = HEIGHT * 2;
 
 fn main() {
-    let alive: char = 'o';
+    let alive: char = '0';
     let  dead: char = ' ';
 
     let mut states = init_states();
